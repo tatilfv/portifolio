@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #7e5fee;
+  --second-color: rgb(255, 255, 255);
+}
+h2 {
+  color: black;
+  font-size: 30px;
+  margin-top: 50%;
+  text-align: center;
+  font-family: Freigeist, Arial, Lucida, sans-serif;
+  font-weight: bold;
+}
+h1 {
+  color: black;
+
+  font-size: 40px;
+  font-family: Freigeist, Arial, Lucida, sans-serif;
+  font-weight: bold;
+}
+h3 {
+  color: black;
+
+  font-size: 18px;
+  font-family: Freigeist, Arial, Lucida, sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+}
+h1,
+h3 {
+  text-align: center;
+  margin: 0px;
+}
+.button-link {
+  display: flex;
+  justify-content: center;
+}
+.button-link a {
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  margin: 0 10px;
+}
+.about-link {
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: var(--second-color);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.123);
+  text-decoration: none;
+}
+
+.contact-link {
+  padding: 20px;
+  background-color: var(--second-color);
+  color: var(--primary-color);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.123);
+  text-decoration: none;
+}
+.about-link:hover {
+  cursor: pointer;
+  font-size: 25px;
+  color: var(--second-color);
+}
+.contact-link:hover {
+  cursor: pointer;
+  font-size: 25px;
+  color: var(--primary-color);
+}
+.navbar-green {
+  background-color: #f5f2fe;
+}
+
+p {
+  display: block;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 90px;
+}
+.row {
+  display: flex;
+}
+
+.projects-links {
+  border-radius: 6px;
+  padding: 20px 15px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  background: var(--primary-color);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.123);
+  color: var(--second-color);
+}
+
+.projects-links:hover {
+  border-radius: 6px;
+  padding: 20px 15px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  background: var(--primary-color);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.123);
+  color: var(--second-color);
+  margin-top: 90px;
+}
+.img-fluid {
+  width: 100%;
+}
+.mb-3 {
+  font-size: 30px;
+}

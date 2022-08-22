@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #7e5fee;
+  --second-color: #d5cdf56a;
+}
+
+.homepage-link {
+  text-align: center;
+  display: block;
+  color: var(--primary-color);
+  font-size: 18px;
+  margin-top: 5%;
+  font-family: Freigeist, Arial, Lucida, sans-serif;
+  font-weight: lighter;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: Avenir, sans-serif;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  font-size: 24px;
+  opacity: 0.7;
+  margin: 0;
+  padding-bottom: 20px;
+  font-family: Avenir, sans-serif;
+}
+.about-text {
+  display: flex;
+  margin: 30px 0;
+  font-family: arial;
+}
+.about-text p {
+  margin: 15px;
+}
+p {
+  text-align: center;
+  background: var(--second-color);
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.contact {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 46px;
+  font-family: Avenir, sans-serif;
+  font-weight: bold;
+}
+
+.email-link {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-family: Avenir, sans-serif;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-bottom: 60px;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
