@@ -17,10 +17,11 @@ h1 {
   font-size: 70px;
   font-family: Avenir, sans-serif;
   margin: 0;
+  opacity: 0.8;
 }
-h2 {
+h4 {
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
   opacity: 0.7;
   margin: 0;
   padding-bottom: 20px;
@@ -63,4 +64,11 @@ p {
 }
 .email-link:hover {
   text-decoration: underline;
+}
+.fa-brands {
+  font-size: 36px;
+  margin: 0.5rem;
+}
+.navbar {
+  background-color: #f5f2fe;
 }
