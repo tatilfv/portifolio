@@ -1,6 +1,7 @@
 :root {
   --primary-color: #7e5fee;
   --second-color: #d5cdf56a;
+  --font-family: Freigeist, Arial, Lucida, sans-serif;
 }
 
 .homepage-link {
@@ -76,6 +77,38 @@ p {
 }
 .navbar {
   background-color: #e1daf7;
+}
+footer {
+  background-color: #e1daf7;
+}
+footer .email-link {
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-family: Avenir, sans-serif;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+footer .email-link:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: #f9f7feb2;
+  border-radius: 50%;
+  padding: 10px 14px;
+  transition: all 100ms ease-in-out;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+footer .social-links a:hover {
+  color: #e1daf7;
+  background-color: #f9f7feb2;
 }
 @media (max-width: 960px) {
   p,
