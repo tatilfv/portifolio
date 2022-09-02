@@ -30,7 +30,7 @@ body {
 textarea.form-control-lg {
   min-height: 500px;
   max-height: 900px;
-  width: 600px;
+  width: 750px;
 }
 .message-link {
   border: 1px solid var(--primary-color);
